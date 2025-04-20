@@ -91,3 +91,129 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neobrick Works</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Hind Siliguri', sans-serif;
+      background: #fefefe;
+    }
+    header {
+      background: #fcd34d;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #000;
+    }
+    .hero {
+      background: #facc15;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+    }
+    .hero-text h2 {
+      font-size: 2.5rem;
+      margin: 0 0 1rem;
+    }
+    .hero button {
+      padding: 0.5rem 1rem;
+      background: #1d4ed8;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .hero img {
+      max-width: 300px;
+      height: auto;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-card p {
+      padding: 1rem;
+      font-weight: bold;
+    }
+    footer {
+      background: #e5e7eb;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Neobrick Works</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>ভবিষ্যতের নির্মাণ, আজ থেকেই</h2>
+      <button>Order Now</button>
+    </div>
+    <img src="https://images.unsplash.com/photo-1600306486386-c63c84643d8a" alt="Bricks">
+  </section>
+
+  <section class="section" id="products">
+    <h2>Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1617196034894-fd22f1aa1c51" alt="Concrete Bricks">
+        <p>Concrete Bricks</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1620219841189-c9196d2893d3" alt="Brick Machine">
+        <p>Workers Making Bricks</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1596980031651-3fd6c56bb6c0" alt="Brick Stack">
+        <p>Brick Construction</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Neobrick Works. All rights reserved.
+  </footer>
+</body>
+</html>
